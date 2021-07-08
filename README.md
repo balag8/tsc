@@ -1,0 +1,2 @@
+# tsc
+typescript_repository
