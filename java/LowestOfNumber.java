@@ -3,7 +3,9 @@ class LowestOfNumber{
         int First=Integer.parseInt(args[0]);
         int Second=Integer.parseInt(args[1]);
         int Third=Integer.parseInt(args[2]);
-        if((First < Second)&&(First < Third)){
+        if(First == Second == Third){
+            System.out.println("eqals ");
+        }else if((First < Second)&&(First < Third)){
             System.out.println("Lowest Number is: "+First);
         }
         else if((Second < First) && (Second < Third)){
